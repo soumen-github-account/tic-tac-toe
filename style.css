@@ -1,0 +1,137 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background: linear-gradient(to left, rgb(102, 99, 99),rgb(34, 29, 29));
+  
+    background-size: cover;
+    text-align: center;
+}
+
+.container{
+    height:70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    color:aqua;
+}
+.totalbox{
+    height: 60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+
+.box{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem rgb(44, 43, 43);
+    font-size:8vmin;
+    color:blueviolet;
+    background-color: #fff;
+}
+
+#reset{
+    padding:1rem;
+    font-size: 1.25rem;
+    background: linear-gradient(to left, rgb(31, 35, 36),rgb(131, 158, 203));
+    color:#fff;
+    outline: none;
+    border:none;
+    border-radius: 1rem;
+}
+
+#reset:hover{
+    background: rgb(81, 78, 78);
+    color:aqua;
+    border:2px solid rgb(41, 38, 38);
+}
+
+#new-btn{
+    padding:1rem;
+    font-size: 1.25rem;
+    background:linear-gradient(to left, rgb(31, 35, 36),rgb(131, 158, 203));
+    color:#fff;
+    border-radius:  1rem;
+    outline: none;
+    border:none;
+}
+
+#new-btn:hover{
+    background: rgb(81, 78, 78);
+    color:aqua;
+    border:2px solid rgb(41, 38, 38);
+}
+
+#msg{
+    color:rgb(74, 255, 246);
+    font-size:5vmin;
+}
+
+.msg-hide{
+    height: 100vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:4rem;
+}
+
+.img{
+    background-image: url("win.png");
+    background-size: cover;
+}
+
+.hide{
+    display:none;
+}
+
+.challange{
+    height:30px;
+    width:120px;
+    color:black;
+    background:#f7ff61;
+    border-radius: 20px;
+    margin-top:15px;
+    font-size:13px;
+}
+
+.challange:hover{
+    background-color: rgb(48, 231, 48);
+    color:black;
+}
+.off{
+    height:30px;
+    width:70px;
+    color:black;
+    background:#fff;
+    border-radius: 20px;
+    margin-top:15px;
+    font-size:13px;
+}
+.off:hover{
+    background-color: rgb(229, 73, 34);
+    color:black;
+}
+.scoreboard{
+    color:#fff;
+    font-size: 20px;
+}
+
+.shide{
+    display:none;
+}
+
+.ohide{
+    display:none;
+}
